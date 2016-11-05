@@ -45,6 +45,7 @@
 #$(call add-clean-step, rm -rf $(PRODUCT_OUT)/data/*)
 
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/priv-app/Adaway)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/priv-app/KernelAdiutor)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/priv-app/NovaLauncher)
 
 # ******************************************************************
