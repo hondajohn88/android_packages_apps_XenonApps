@@ -14,6 +14,7 @@
 #
 
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Adaway)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Amaze)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/KernelAdiutor)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/NovaLauncher)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/substratum)
