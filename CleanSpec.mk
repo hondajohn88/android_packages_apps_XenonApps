@@ -13,7 +13,7 @@
 # limitations under the License.
 #
 
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Adaway)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/AdAway)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/KernelAdiutor)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Magisk)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/MagiskManager)

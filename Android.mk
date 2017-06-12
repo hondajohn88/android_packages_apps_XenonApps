@@ -17,7 +17,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := Adaway
+LOCAL_MODULE := AdAway
 LOCAL_SRC_FILES := apk/$(LOCAL_MODULE).apk
 LOCAL_MODULE_PATH := $(TARGET_OUT_APPS)
 LOCAL_MODULE_TAGS := optional
