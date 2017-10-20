@@ -15,5 +15,7 @@
 
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Magisk)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/NovaLauncher)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/PixelTheme)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/StockTheme)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Substratum)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/SuperSU)
