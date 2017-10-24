@@ -15,8 +15,6 @@
 
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/AdAway)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/KernelAdiutor)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/Magisk)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/MagiskManager)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/MiXplorer)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/mnml)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/NovaLauncher)
